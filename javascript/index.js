@@ -26,7 +26,7 @@ const draw = () => {
 const main = (currentTime) => {
   if(gameOver) {
     if(confirm("GAME OVER")) {
-      window.location = "/"
+      location.reload()
     }
     return
   }
